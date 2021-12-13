@@ -7,6 +7,8 @@
 
 #include <openssl/opensslv.h>
 
+#include "manage.h"
+
   /**  Constants.
   **/
     /* u3a_bits: number of bits in word-addressed pointer.  29 == 2GB.
@@ -357,12 +359,6 @@
             u3R->cap_p += pil_u->mov_ws;
             return u3a_peek(pil_u);
           }
-
-        //  we have to forward-declare u3m_bail() here, as our
-        //  headers don't have the necessary guards.
-        //
-          c3_i
-          u3m_bail(c3_m how_m) __attribute__((noreturn));
 
         /* u3a_pile_sane(): bail on invalid road stack state.
         */
