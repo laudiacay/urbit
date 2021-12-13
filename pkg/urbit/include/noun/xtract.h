@@ -1,4 +1,4 @@
-/* i/n/x.h
+/* pkg/urbit/include/noun/xtract.h
 **
 ** This file is in the public domain.
 */

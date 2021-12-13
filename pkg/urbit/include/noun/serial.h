@@ -1,5 +1,6 @@
-/* i/n/serial.h
+/* pkg/urbit/include/noun/serial.h
 **
+** This file is in the public domain.
 */
 #ifndef URBIT_NOUN_SERIAL_H
 #define URBIT_NOUN_SERIAL_H

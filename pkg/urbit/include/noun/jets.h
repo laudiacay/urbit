@@ -1,4 +1,4 @@
-/* include/n/j.h
+/* pkg/urbit/include/noun/jets.h
 **
 ** This file is in the public domain.
 */

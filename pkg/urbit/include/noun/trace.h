@@ -1,4 +1,4 @@
-/* i/n/t.h
+/* pkg/urbit/include/noun/trace.h
 **
 ** This file is in the public domain.
 */

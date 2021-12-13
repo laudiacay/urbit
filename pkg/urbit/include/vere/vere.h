@@ -1,4 +1,6 @@
-/* include/vere/vere.h
+/* pkg/urbit/include/vere/vere.h
+**
+** This file is in the public domain.
 */
 #ifndef URBIT_VERE_VERE_H
 #define URBIT_VERE_VERE_H

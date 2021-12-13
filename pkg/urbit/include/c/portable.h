@@ -1,4 +1,4 @@
-/* include/c/portable.h
+/* pkg/urbit/include/c/portable.h
 **
 ** This file is in the public domain.
 */

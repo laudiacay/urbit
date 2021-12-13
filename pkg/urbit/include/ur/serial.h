@@ -1,3 +1,7 @@
+/* pkg/urbit/include/ur/serial.h
+**
+** This file is in the public domain.
+*/
 #ifndef URBIT_UR_SERIAL_H
 #define URBIT_UR_SERIAL_H
 

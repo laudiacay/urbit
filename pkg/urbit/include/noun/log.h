@@ -1,5 +1,6 @@
-/* noun/log.h
+/* pkg/urbit/include/noun/log.h
 **
+** This file is in the public domain.
 */
 #ifndef URBIT_NOUN_LOG_H
 #define URBIT_NOUN_LOG_H

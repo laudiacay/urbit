@@ -1,4 +1,6 @@
-/* include/noun/urth.h
+/* pkg/urbit/include/noun/urth.h
+**
+** This file is in the public domain.
 */
 #ifndef URBIT_NOUN_URTH_H
 #define URBIT_NOUN_URTH_H

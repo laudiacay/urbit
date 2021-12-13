@@ -1,4 +1,6 @@
-/* include/vere/serf.h
+/* pkg/urbit/include/vere/serf.h
+**
+** This file is in the public domain.
 */
 #ifndef URBIT_VERE_SERF_H
 #define URBIT_VERE_SERF_H

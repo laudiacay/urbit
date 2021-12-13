@@ -1,4 +1,4 @@
-/* i/n/a.h
+/* pkg/urbit/include/noun/allocate.h
 **
 ** This file is in the public domain.
 */

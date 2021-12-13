@@ -1,4 +1,4 @@
-/* include/c/defs.h
+/* pkg/urbit/include/c/defs.h
 **
 ** This file is in the public domain.
 */

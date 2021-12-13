@@ -1,4 +1,4 @@
-/* include/noun/imprison.h
+/* pkg/urbit/include/noun/imprison.h
 **
 ** This file is in the public domain.
 */

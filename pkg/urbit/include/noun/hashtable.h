@@ -1,4 +1,4 @@
-/* include/n/h.h
+/* pkg/urbit/include/noun/hashtable.h
 **
 ** This file is in the public domain.
 */

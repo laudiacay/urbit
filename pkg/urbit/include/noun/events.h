@@ -1,4 +1,4 @@
-/* i/n/e.h
+/* pkg/urbit/include/noun/events.h
 **
 ** This file is in the public domain.
 */

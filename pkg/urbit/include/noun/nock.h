@@ -1,4 +1,4 @@
-/* i/n/n.h
+/* pkg/urbit/include/noun/nock.h
 **
 ** This file is in the public domain.
 */

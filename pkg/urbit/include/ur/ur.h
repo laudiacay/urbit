@@ -1,3 +1,7 @@
+/* pkg/urbit/include/ur/ur.h
+**
+** This file is in the public domain.
+*/
 #ifndef URBIT_UR_UR_H
 #define URBIT_UR_UR_H
 

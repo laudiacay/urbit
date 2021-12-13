@@ -1,4 +1,4 @@
-/* i/n/u.h
+/* pkg/urbit/include/noun/aliases.h
 **
 ** This file is in the public domain.
 */

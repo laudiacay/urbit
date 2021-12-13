@@ -1,4 +1,4 @@
-/* i/n/o.h
+/* pkg/urbit/include/noun/options.h
 **
 ** This file is in the public domain.
 */

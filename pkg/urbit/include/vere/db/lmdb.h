@@ -1,4 +1,6 @@
-/* include/vere/db/lmdb-impl.h
+/* pkg/urbit/include/vere/db/lmdb-impl.h
+**
+** This file is in the public domain.
 */
 #ifndef URBIT_VERE_DB_LMDB_H
 #define URBIT_VERE_DB_LMDB_H

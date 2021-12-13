@@ -1,3 +1,7 @@
+/* pkg/urbit/include/ur/hashcons.h
+**
+** This file is in the public domain.
+*/
 #ifndef URBIT_UR_HASHCONS_H
 #define URBIT_UR_HASHCONS_H
 

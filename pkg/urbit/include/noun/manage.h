@@ -1,4 +1,4 @@
-/* i/n/m.h
+/* pkg/urbit/include/noun/manage.h
 **
 ** This file is in the public domain.
 */

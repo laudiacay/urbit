@@ -1,4 +1,4 @@
-/* include/c/types.h
+/* pkg/urbit/include/c/types.h
 **
 ** This file is in the public domain.
 */

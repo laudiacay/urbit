@@ -1,4 +1,4 @@
-/* i/n/r.h
+/* pkg/urbit/include/noun/retrieve.h
 **
 ** This file is in the public domain.
 */

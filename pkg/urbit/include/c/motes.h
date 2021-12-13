@@ -1,4 +1,4 @@
-/* include/lib/motes.h
+/* pkg/urbit/include/c/motes.h
 **
 ** This file is in the public domain.
 */

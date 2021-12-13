@@ -1,4 +1,4 @@
-/* include/f/qjet.h
+/* pkg/urbit/include/jets/q.h
 **
 ** This file is in the public domain.
 */
