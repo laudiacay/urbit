@@ -2,6 +2,9 @@
 **
 ** This file is in the public domain.
 */
+#ifndef URBIT_NOUN_JETS_H
+#define URBIT_NOUN_JETS_H
+
   /** Noun semantics.
   **/
 #if 0
@@ -301,3 +304,5 @@
       */
         void
         u3j_rewrite_compact();
+
+#endif /* ifndef URBIT_NOUN_JETS_H */

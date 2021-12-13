@@ -2,6 +2,9 @@
 **
 ** This file is in the public domain.
 */
+#ifndef URBIT_JETS_Y_H
+#define URBIT_JETS_Y_H
+
   /** Tier 1.
   **/
     u3_noun u3ya_add(u3_noun);
@@ -326,3 +329,5 @@
     u3_noun u3wzu_snub(u3_noun);
     u3_noun u3wzu_toss(u3_noun);
     u3_noun u3wzu_wrap(u3_noun);
+
+#endif /* ifndef URBIT_JETS_Y_H */

@@ -2,6 +2,9 @@
 **
 ** This file is in the public domain.
 */
+#ifndef URBIT_NOUN_VORTEX_H
+#define URBIT_NOUN_VORTEX_H
+
   /**  Data structures.
   **/
     /* u3v_arvo: modern arvo structure.
@@ -112,3 +115,5 @@
     */
       void
       u3v_rewrite_compact();
+
+#endif /* ifndef URBIT_NOUN_VORTEX_H */

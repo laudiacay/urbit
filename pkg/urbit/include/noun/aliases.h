@@ -2,6 +2,9 @@
 **
 ** This file is in the public domain.
 */
+#ifndef URBIT_NOUN_ALIASES_H
+#define URBIT_NOUN_ALIASES_H
+
   /**  Constants.
   **/
     /* u3_none - u3_noun which is not a noun.
@@ -112,3 +115,5 @@
 #     define  u3tn(type, x) (x == 0) ? (void *)0 :  ((type *) u3a_into(x))
 #     define  u3of(type, x) (u3a_outa((type *)x))
 
+
+#endif /* ifndef URBIT_NOUN_ALIASES_H */

@@ -2,6 +2,8 @@
 **
 ** This file is in the public domain.
 */
+#ifndef URBIT_C_PORTABLE_H
+#define URBIT_C_PORTABLE_H
 
 #include "config.h"
 
@@ -242,3 +244,5 @@
 #     define ASSERT_CONCAT(a, b) ASSERT_CONCAT_(a, b)
 #     define STATIC_ASSERT(e,m) \
         ;enum { ASSERT_CONCAT(assert_line_, __LINE__) = 1/(int)(!!(e)) }
+
+#endif /* ifndef URBIT_C_PORTABLE_H */

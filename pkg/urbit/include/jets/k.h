@@ -2,6 +2,9 @@
 **
 ** This file is in the public domain.
 */
+#ifndef URBIT_JETS_K_H
+#define URBIT_JETS_K_H
+
   /** Tier 1.
   **/
     u3_noun u3ka_add(u3_noun a, u3_noun b);
@@ -161,3 +164,5 @@
   */
     u3_noun
     u3kfu_repo(u3_noun, u3_noun);
+
+#endif /* ifndef URBIT_JETS_K_H */

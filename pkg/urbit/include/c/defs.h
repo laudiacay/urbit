@@ -2,6 +2,9 @@
 **
 ** This file is in the public domain.
 */
+#ifndef URBIT_C_DEFS_H
+#define URBIT_C_DEFS_H
+
   /** Loobeans - inverse booleans to match nock.
   **/
 #     define c3y      0
@@ -122,3 +125,5 @@
           c3_assert(!"memory lost");                            \
         }                                                       \
         rut;})
+
+#endif /* ifndef URBIT_C_DEFS_H */

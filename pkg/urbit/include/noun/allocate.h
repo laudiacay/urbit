@@ -2,6 +2,8 @@
 **
 ** This file is in the public domain.
 */
+#ifndef URBIT_NOUN_ALLOCATE_H
+#define URBIT_NOUN_ALLOCATE_H
 
 #include <openssl/opensslv.h>
 
@@ -677,3 +679,5 @@
         */
           c3_c*
           u3a_string(u3_atom a);
+
+#endif /* ifndef URBIT_NOUN_ALLOCATE_H */

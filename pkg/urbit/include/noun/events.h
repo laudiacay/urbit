@@ -2,6 +2,9 @@
 **
 ** This file is in the public domain.
 */
+#ifndef URBIT_NOUN_EVENTS_H
+#define URBIT_NOUN_EVENTS_H
+
   /** Data structures.
   **/
     /* u3e_line: control line.
@@ -89,3 +92,5 @@
     */
       void
       u3e_foul(void);
+
+#endif /* ifndef URBIT_NOUN_EVENTS_H */

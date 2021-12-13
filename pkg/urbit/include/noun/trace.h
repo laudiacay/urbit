@@ -2,6 +2,9 @@
 **
 ** This file is in the public domain.
 */
+#ifndef URBIT_NOUN_TRACE_H
+#define URBIT_NOUN_TRACE_H
+
   /** Data structures.
   **/
     /* u3t_trace: fast execution flags.
@@ -138,3 +141,5 @@
       c3_global u3t_trace u3t_Trace;
 #     define u3T u3t_Trace
 
+
+#endif /* ifndef URBIT_NOUN_TRACE_H */

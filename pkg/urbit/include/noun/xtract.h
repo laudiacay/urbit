@@ -2,6 +2,9 @@
 **
 ** This file is in the public domain.
 */
+#ifndef URBIT_NOUN_XTRACT_H
+#define URBIT_NOUN_XTRACT_H
+
   /**  Constants.
   **/
     /* Conventional axes for gate call.
@@ -157,3 +160,5 @@
                    u3_noun* e,
                    u3_noun* f,
                    u3_noun* g);
+
+#endif /* ifndef URBIT_NOUN_XTRACT_H */

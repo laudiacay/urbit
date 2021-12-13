@@ -2,6 +2,9 @@
 **
 ** This file is in the public domain.
 */
+#ifndef URBIT_NOUN_RETRIEVE_H
+#define URBIT_NOUN_RETRIEVE_H
+
     /** u3r_*: read without ever crashing.
     **/
 #if 1
@@ -462,3 +465,5 @@
       */
         c3_y*
         u3r_tape(u3_noun a);
+
+#endif /* ifndef URBIT_NOUN_RETRIEVE_H */

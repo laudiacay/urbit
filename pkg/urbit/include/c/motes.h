@@ -2,6 +2,9 @@
 **
 ** This file is in the public domain.
 */
+#ifndef URBIT_C_MOTES_H
+#define URBIT_C_MOTES_H
+
   /** Definitions.
   **/
 
@@ -1313,3 +1316,5 @@
 #   define c3__zpzp   c3_s4('z','p','z','p')
 #   define c3__zuse   c3_s4('z','u','s','e')
 #   define c3__zush   c3_s4('z','u','s','h')
+
+#endif /* ifndef URBIT_C_MOTES_H */

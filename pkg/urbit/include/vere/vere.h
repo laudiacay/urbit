@@ -1,5 +1,7 @@
 /* include/vere/vere.h
 */
+#ifndef URBIT_VERE_VERE_H
+#define URBIT_VERE_VERE_H
 
 #include <uv.h>
 
@@ -1411,3 +1413,5 @@
 
         c3_w
         u3_readdir_r(DIR *dirp, struct dirent *entry, struct dirent **result);
+
+#endif /* ifndef URBIT_VERE_VERE_H */

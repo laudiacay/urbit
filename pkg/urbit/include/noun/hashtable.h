@@ -2,6 +2,9 @@
 **
 ** This file is in the public domain.
 */
+#ifndef URBIT_NOUN_HASHTABLE_H
+#define URBIT_NOUN_HASHTABLE_H
+
   /**  Data structures.
   **/
     /**  Straightforward implementation of the classic Bagwell
@@ -182,3 +185,5 @@
       */
         c3_w
         u3h_wyt(u3p(u3h_root) har_p);
+
+#endif /* ifndef URBIT_NOUN_HASHTABLE_H */

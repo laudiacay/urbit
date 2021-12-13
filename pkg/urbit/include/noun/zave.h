@@ -2,6 +2,9 @@
 **
 ** This file is in the public domain.
 */
+#ifndef URBIT_NOUN_ZAVE_H
+#define URBIT_NOUN_ZAVE_H
+
   /**  Memoization.
   ***
   ***  The memo cache is keyed by an arbitrary symbolic function
@@ -37,3 +40,5 @@
     */
       u3_noun
       u3z_uniq(u3_noun som);
+
+#endif /* ifndef URBIT_NOUN_ZAVE_H */

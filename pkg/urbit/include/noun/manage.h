@@ -2,6 +2,9 @@
 **
 ** This file is in the public domain.
 */
+#ifndef URBIT_NOUN_MANAGE_H
+#define URBIT_NOUN_MANAGE_H
+
     /** System management.
     **/
       /* u3m_boot(): start the u3 system. return next event, starting from 1.
@@ -149,3 +152,5 @@
       */
         c3_w
         u3m_pack(void);
+
+#endif /* ifndef URBIT_NOUN_MANAGE_H */

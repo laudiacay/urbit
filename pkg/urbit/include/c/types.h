@@ -2,6 +2,9 @@
 **
 ** This file is in the public domain.
 */
+#ifndef URBIT_C_TYPES_H
+#define URBIT_C_TYPES_H
+
   /** Integer typedefs.
   **/
     /* Canonical integers.
@@ -28,3 +31,5 @@
       typedef int       c3_i;      // int - really bad
       typedef uintptr_t c3_p;      // pointer-length uint - really really bad
       typedef intptr_t c3_ps;      // pointer-length int - really really bad
+
+#endif /* ifndef URBIT_C_TYPES_H */

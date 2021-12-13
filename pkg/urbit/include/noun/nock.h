@@ -2,6 +2,9 @@
 **
 ** This file is in the public domain.
 */
+#ifndef URBIT_NOUN_NOCK_H
+#define URBIT_NOUN_NOCK_H
+
   /** Data structures.
   ***
   **/
@@ -136,3 +139,5 @@
     */
       void
       u3n_ream(void);
+
+#endif /* ifndef URBIT_NOUN_NOCK_H */
