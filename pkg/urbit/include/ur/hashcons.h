@@ -1,5 +1,5 @@
-#ifndef UR_HASHCONS_H
-#define UR_HASHCONS_H
+#ifndef URBIT_UR_HASHCONS_H
+#define URBIT_UR_HASHCONS_H
 
 #include <inttypes.h>
 #include <assert.h>
@@ -254,4 +254,4 @@ ur_walk_fore_with(ur_walk_fore_t *w,
 void
 ur_walk_fore_done(ur_walk_fore_t *w);
 
-#endif
+#endif /* ifndef URBIT_UR_HASHCONS_H */

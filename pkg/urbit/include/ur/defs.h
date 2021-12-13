@@ -1,5 +1,5 @@
-#ifndef UR_DEFS_H
-#define UR_DEFS_H
+#ifndef URBIT_UR_DEFS_H
+#define URBIT_UR_DEFS_H
 
 #include <inttypes.h>
 #include <assert.h>
@@ -81,4 +81,4 @@ ur_met0_bytes_unsafe(uint64_t len, uint8_t *byt)
 #define ur_met3_32(a)  ur_bloq_up3(ur_met0_32(a))
 #define ur_met3_64(a)  ur_bloq_up3(ur_met0_64(a))
 
-#endif
+#endif /* ifndef URBIT_UR_DEFS_H */

@@ -1,5 +1,5 @@
-#ifndef UR_SERIAL_H
-#define UR_SERIAL_H
+#ifndef URBIT_UR_SERIAL_H
+#define URBIT_UR_SERIAL_H
 
 #include <inttypes.h>
 #include <ur/defs.h>
@@ -108,4 +108,4 @@ ur_cue_test_with(ur_cue_test_t   *t,
 void
 ur_cue_test_done(ur_cue_test_t *t);
 
-#endif
+#endif /* ifndef URBIT_UR_SERIAL_H */
