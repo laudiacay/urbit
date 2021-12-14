@@ -1213,6 +1213,12 @@
         u3_auto*
         u3_hind_io_init(u3_pier* pir_u);
 
+    /* u3_sprk_io_init(): initialize entropy provider.
+      */
+        u3_auto*
+        u3_sprk_io_init(u3_pier* pir_u);
+
+
     /**  Stream messages.
     **/
       /* u3_newt_decode(): decode a (partial) length-prefixed byte buffer

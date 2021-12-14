@@ -2091,6 +2091,25 @@
     +$  oath  @                                         ::  signature
     --  ::  pki
   --  ::  jael
+::                                                      ::::
+::::                    ++sprk                            ::  (1???) entropy
+  ::                                                    ::::
+++  sprk  ^?
+  |%
+  :: this might also contain declarations of types like the entropy pool (this might b public bc arvo mite use it)
+  +$  gift                                              ::  out result <-$
+    $%  [%hreq p=@ud]                                   ::  request an amount of entropy from driver
+        [%rmor p=octs]                                  ::  send an amount of randomness to a vane
+    ==
+  +$  task                                              ::  in request ->$
+    $~  [%vega ~]                                       ::
+    $%  $>(%born vane-task)                             ::  new unix process
+        $>(%trim vane-task)                             ::  trim state
+        $>(%vega vane-task)                             ::  report upgrade
+        [%hmor p=octs]                                  ::  new entropy from driver
+        [%rreq p=@ud]                                   ::  other vane requests randomness from me :: mite change to the type "bite" which will talk about power-of-two-bloqsizes (do this later)
+    ==
+  --  ::sprk
 ::
 +$  gift-arvo                                           ::  out result <-$
   $~  [%doze ~]
@@ -2102,6 +2121,7 @@
       gift:gall
       gift:iris
       gift:jael
+      gift:sprk
   ==
 +$  task-arvo                                           ::  in request ->$
   $%  task:ames
@@ -2112,6 +2132,7 @@
       task:gall
       task:iris
       task:jael
+      task:sprk
   ==
 +$  note-arvo                                           ::  out request $->
   $~  [%b %wake ~]
@@ -2123,6 +2144,7 @@
       [%g task:gall]
       [%i task:iris]
       [%j task:jael]
+      [%s task:sprk]
       [%$ %whiz ~]
       [@tas %meta vase]
   ==
@@ -2144,6 +2166,7 @@
       [%gall gift:gall]
       [%iris gift:iris]
       [%jael gift:jael]
+      [%sprk gift:sprk]
   ==
 ::  $unix-task: input from unix
 ::

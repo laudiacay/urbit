@@ -15,6 +15,6 @@ the "callbacks" define the lifecycle of the driver
 -- how do i compile this: nix-shell, ./configure, make
 -- how do i test this: make test has crappy hand0rolled unit tests but those are kinda useless for this?? there are no examples of testing the io driver, it's all parsing functions.... should just run it anyway lol. the load-bearing stuff will be in integration tests :)
 
-- look at behn's behn.hoon and the lull.hoon for event descriptions
+- look at behn's behn.hoon and the pkg/arvo/sys/lull.hoon for event descriptions
 - theres apparently a PR open with a vane that does "basically nothing" and that might be helpful to look @ too: https://github.com/urbit/urbit/pull/5420
  ^^ this is 99% boilerplate. it does two (2) things that are both trivial
