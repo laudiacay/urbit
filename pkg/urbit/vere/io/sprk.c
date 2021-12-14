@@ -18,8 +18,6 @@
     u3_auto    car_u;                   //  driver
   } u3_sprk;
 
-//  XX review, move
-//
 /* _sprk_bail_dire(): c3y if fatal error. RETAIN
 */
 static c3_o
@@ -122,11 +120,11 @@ _sprk_io_talk(u3_auto* car_u)
 static void
 _sprk_ent_send(u3_auto* car_u, u3_noun byt) {
 
-  u3x_atom(byt);
+  if (c3n == u3a_is_atom(byt)) goto exit;
   c3_w n_bytes = u3r_word(0, byt);
 
   // make sure it's not too much entropy and round it up to a multiple of c3_rand size
-  assert(n_bytes <= 1024);
+  if (n_bytes > 1024) goto exit;
   if (n_bytes % 64 > 0) {
     n_bytes += 64 - (n_bytes % 64);
   }
@@ -137,23 +135,22 @@ _sprk_ent_send(u3_auto* car_u, u3_noun byt) {
   // fill the buffer piece by piece - this pointer math needs a check!
   int calls = n_bytes / 64;
   for (int i=0 ; i < calls; i++) {
-    c3_rand(&bytbuf[2*i]);
+    c3_rand(&bytbuf[16*i]);
   }
 
   // turn it into a noun and free it
   u3_noun entr = u3i_words(n_bytes, bytbuf);
   free(bytbuf);
 
-  // is this right? i don't think this is right.
   u3_noun wir = u3nc(c3__sprk, u3_nul);
   
   // card looks like: c3__hmor, number of bytes, entropy stream bytes, u3_nul
-  u3_noun cad = u3nq(c3__hmor, u3i_word(n_bytes), entr, u3_nul);
+  u3_noun cad = u3nt(c3__hmor, u3i_word(n_bytes), entr);
   // send the entropy in
   u3_auto_plan(car_u, u3_ovum_init(0, c3__s, wir, cad));
   
   // and decrement reference count
-  u3z(byt);
+  exit: u3z(byt);
 
   // done :)
 }
@@ -170,7 +167,7 @@ _sprk_io_kick(u3_auto* car_u, u3_noun wir, u3_noun cad)
   if (  (c3n == u3r_cell(wir, &i_wir, 0))
      || (c3n == u3r_cell(cad, &tag, &dat))
      || (c3__sprk != i_wir) 
-     || (c3__hreq != tag)) // THIS IS THE PR LINE
+     || (c3__hreq != tag))
   {
     ret_o = c3n;
   }

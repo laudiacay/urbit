@@ -1,0 +1,20 @@
+pkg/urbit/vere/io/behn.c:
+thing at the bottom initializes the behn driver- u3_auto (car/driver lol)
+contains a queue and some callbacks
+things the runtime wants to put in arvo go in the queue (ent_u and ext_u pointers in the u3_auto struct, these track the head and the tail of the queue LL). 
+a _u3_ovum is a potential event :)
+the "callbacks" define the lifecycle of the driver
+- initialization function is a public function in the header (u3_behn_io_init) there's a place where it gets registered (auto.c)
+- in _u3_auto_cb there are some callbacks defined
+- google the strict aliasing rule??
+
+- *****open a PR for line 221 about the missing tag check on _behn_io_kick in this file you've been looking at
+
+-- make yourself another io driver, and add all the things to the relevant files when necessary
+-- you can use c stdlib!!! :)
+-- how do i compile this: nix-shell, ./configure, make
+-- how do i test this: make test has crappy hand0rolled unit tests but those are kinda useless for this?? there are no examples of testing the io driver, it's all parsing functions.... should just run it anyway lol. the load-bearing stuff will be in integration tests :)
+
+- look at behn's behn.hoon and the lull.hoon for event descriptions
+- theres apparently a PR open with a vane that does "basically nothing" and that might be helpful to look @ too: https://github.com/urbit/urbit/pull/5420
+ ^^ this is 99% boilerplate. it does two (2) things that are both trivial
